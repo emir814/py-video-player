@@ -152,7 +152,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     
     if len(sys.argv) < 2:
-        QMessageBox.critical(None, "Error", "Usage: video.exe <video-path>")
+        QMessageBox.critical(None, "Error", "Usage: video.py <video-path>")
         sys.exit(1)
 
     video_path = sys.argv[1]
